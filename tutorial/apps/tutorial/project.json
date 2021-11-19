@@ -40,7 +40,8 @@
       "executor": "@nrwl/web:dev-server",
       "options": {
         "buildTarget": "tutorial:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/tutorial/proxy.conf.json"
       },
       "configurations": {
         "production": {
