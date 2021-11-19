@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "data": "libs/data",
     "tutorial": "apps/tutorial",
     "tutorial-e2e": "apps/tutorial-e2e"
   }
