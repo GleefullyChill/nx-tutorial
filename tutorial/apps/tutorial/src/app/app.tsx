@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Todo } from '@myorg/data';
+import { Todo } from '@tutorial/data';
 
 export const App = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
